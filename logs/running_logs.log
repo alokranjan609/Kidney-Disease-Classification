@@ -23,3 +23,52 @@
 [2025-02-14 15:37:55,936: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-02-15 09:40:06,678: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-15 09:40:06,711: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-15 09:40:06,717: INFO: common: created directory at: artifacts]
+[2025-02-15 09:40:06,721: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-02-15 09:40:27,848: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-15 10:22:42,772: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-15 10:22:42,777: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-15 10:22:42,785: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-15 10:22:42,787: INFO: common: created directory at: artifacts]
+[2025-02-15 10:22:42,788: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\raj\Desktop\Kidney-Disease-Classification\main.py", line 10, in <module>
+    data_ingestion.main()
+  File "C:\Users\raj\Desktop\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-02-15 10:34:08,391: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-15 10:34:08,395: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-15 10:34:08,399: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-15 10:34:08,400: INFO: common: created directory at: artifacts]
+[2025-02-15 10:34:08,401: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\raj\Desktop\Kidney-Disease-Classification\main.py", line 10, in <module>
+    data_ingestion.main()
+  File "C:\Users\raj\Desktop\Kidney-Disease-Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 14, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-02-15 10:36:45,945: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-02-15 10:36:45,949: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-15 10:36:45,952: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-15 10:36:45,953: INFO: common: created directory at: artifacts]
+[2025-02-15 10:36:45,954: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-02-15 10:36:45,956: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-02-15 10:37:06,520: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-02-15 10:37:08,389: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-02-15 10:37:08,391: INFO: main: *******************]
+[2025-02-15 10:37:08,391: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-02-15 10:37:08,395: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-02-15 10:37:08,399: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-02-15 10:37:08,400: INFO: common: created directory at: artifacts]
+[2025-02-15 10:37:08,402: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-02-15 10:37:09,665: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-02-15 10:37:10,249: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
