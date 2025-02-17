@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/raj/Desktop/Kidney-Disease-Classification/mlruns/0/9961fc168fae49f1b44afca5426d2839/artifacts
+deleted_time: 1739646309566
+end_time: 1739621128096
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 9961fc168fae49f1b44afca5426d2839
+run_name: kindly-stag-6
+run_uuid: 9961fc168fae49f1b44afca5426d2839
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739621064781
+status: 3
+tags: []
+user_id: raj

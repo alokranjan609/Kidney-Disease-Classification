@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/raj/Desktop/Kidney-Disease-Classification/mlruns/0/bdec8233458f4bd3acf5d6237c2805d9/artifacts
+deleted_time: 1739646309570
+end_time: 1739635002919
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: bdec8233458f4bd3acf5d6237c2805d9
+run_name: grandiose-croc-203
+run_uuid: bdec8233458f4bd3acf5d6237c2805d9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739634961138
+status: 3
+tags: []
+user_id: raj

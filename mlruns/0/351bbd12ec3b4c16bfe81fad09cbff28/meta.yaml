@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/raj/Desktop/Kidney-Disease-Classification/mlruns/0/351bbd12ec3b4c16bfe81fad09cbff28/artifacts
+deleted_time: 1739646309567
+end_time: 1739633731903
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 351bbd12ec3b4c16bfe81fad09cbff28
+run_name: masked-shark-522
+run_uuid: 351bbd12ec3b4c16bfe81fad09cbff28
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739633672331
+status: 3
+tags: []
+user_id: raj
